@@ -7,6 +7,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 import re
+from sklearn.model_selection import train_test_split
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(page_title="Car Price Predictor", page_icon="🚗", layout="wide")
